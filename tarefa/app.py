@@ -12,7 +12,7 @@ def criar_janela_principal():
     ]
 
     return sg.Window('Todo List', layout=layout,finalize=True)
-# Crirando a janela
+# Criando a janela
 janela = criar_janela_principal()
 # Criar as regras dessa janela
 while True:
